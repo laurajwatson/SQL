@@ -1,0 +1,6 @@
+select
+Distinct org_type
+from Organisation
+
+where org_type <> ' ' 
+and org_type IS NOT NULL
